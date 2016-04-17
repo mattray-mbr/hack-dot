@@ -16,6 +16,20 @@ var app = angular.module('myApp',['ngAnimate'])
 
 app.controller('myController',['$scope',function ($scope) {
 
+
+
+	// functions that control the scrolling speed of the parallax element, notice that we could have used JQuery's $(document).height() to make the speed dependent on html document size
+
+	var parallax = function () {
+		var parallaxImage  = document.getElementById("parallax")
+		parallaxImage.style.top = - (window.pageYOffset)/(1.4) + "px"
+	}
+	window.addEventListener("scroll", parallax, false)
+
+	// functions that control the scrolling speed of the parallax element, notice that we could have used JQuery's $(document).height() to make the speed dependent on html document size
+
+
+
 	// functions and boolean variables that control the dropdown menus here
 	
 	$scope.showAboutTheCrew = false
@@ -44,6 +58,7 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 	}
 	$scope.showAboutTheCrewFunction = function () {
+		console.log("About the Crew")
 		$scope.showNested       = false
 		$scope.showSecondSeason = false
 		$scope.showTheSpacecraft= false
@@ -58,6 +73,7 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 	}
 	$scope.showSecondSeasonFunction = function () {
+		console.log("Second Season")
 		$scope.showNested       = false
 		$scope.showAboutTheCrew = false
 		$scope.showTheSpacecraft= false
@@ -72,6 +88,7 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 	}
 	$scope.showTheSpacecraftFunction = function () {
+		console.log("The Spacecraft")
 		$scope.showNested       = false
 		$scope.showAboutTheCrew = false
 		$scope.showSecondSeason = false
@@ -86,6 +103,7 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 	}
 	$scope.showNestedFunction = function () {
+		console.log("Engine")
 		$scope.preventMenuClose = false
 		$scope.preventNestedMenuClose = false
 		if ($scope.showNested === false) {
