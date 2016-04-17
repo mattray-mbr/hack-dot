@@ -1,4 +1,4 @@
-// JS FILE FOR GABRIEL LEON'S CODING EXERCISE FOR TAPINFLUENCE
+// JS FILE FOR GABRIEL LEON'S CODING EXERCISE FOR THE FEDERATION
 
 
 
@@ -15,6 +15,8 @@ var app = angular.module('myApp',['ngAnimate'])
 // angular controller (front-end controller) here
 
 app.controller('myController',['$scope',function ($scope) {
+
+	// functions and boolean variables that control the dropdown menus here
 	
 	$scope.showAboutTheCrew = false
 	$scope.showSecondSeason = false
@@ -97,33 +99,11 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 	}
 
-	$scope.captain = function () {
-		console.log("captain")
-	}
-	$scope.hyperspaceFAQS = function () {
-		console.log("hyperspace faqs")
-	}
-	$scope.firstSeason = function () {
-		console.log("first season")
-	}
-	$scope.plot = function () {
-		console.log("plot")
-	}
-	$scope.cast = function () {
-		console.log("cast")
-	}
-	$scope.plasmaDrive = function () {
-		console.log("plasma drive")
-	}
-	$scope.warpDrive = function () {
-		console.log("warp drive")
-	}
-	$scope.bridge = function () {
-		console.log("bridge")
-	}
-	$scope.cabins = function () {
-		console.log("cabins")
-	}
+	// functions and boolean variables that control the dropdown menus here
+
+
+
+	// function that translates a string with no punctuation from English to 'pig' Klingon
 
 	$scope.translateToKlingon = function (englishString) {
 		var wordsArray = englishString.split(" ")
@@ -169,6 +149,44 @@ app.controller('myController',['$scope',function ($scope) {
 		}
 		return wordsArray.join(" ")
 	}
+
+	// function that translates a string with no punctuation from English to 'pig' Klingon
+
+
+
+	// functions that print the English translation of the 'pig' Klingon links selected
+
+	$scope.captain = function () {
+		console.log("captain")
+	}
+	$scope.hyperspaceFAQS = function () {
+		console.log("hyperspace faqs")
+	}
+	$scope.firstSeason = function () {
+		console.log("first season")
+	}
+	$scope.plot = function () {
+		console.log("plot")
+	}
+	$scope.cast = function () {
+		console.log("cast")
+	}
+	$scope.plasmaDrive = function () {
+		console.log("plasma drive")
+	}
+	$scope.warpDrive = function () {
+		console.log("warp drive")
+	}
+	$scope.bridge = function () {
+		console.log("bridge")
+	}
+	$scope.cabins = function () {
+		console.log("cabins")
+	}
+
+	// functions that print the English translation of the 'pig' Klingon links selected
+
+
 
 }])
 
