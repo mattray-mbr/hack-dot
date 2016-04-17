@@ -1,0 +1,566 @@
+/*CSS FILE FOR GABRIEL LEON'S CODING EXERCISE FOR TAPINFLUENCE*/
+
+
+
+
+
+/*general reset and font*/
+
+* {
+	margin  : 0;
+	padding : 0;
+	border  : 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*general reset and font*/
+
+
+
+
+
+/*navbar css*/
+
+.navbar {
+	position: fixed;
+	width:100%;
+	/*height:6rem;*/
+	height:5rem;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	/*text-transform: uppercase;*/
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	z-index:20;
+
+	padding-top:15px;
+
+	/*-webkit-transition: all 1s;*/
+}
+
+
+
+
+.logo {
+	margin-top: -15px;
+}
+.non-logo {
+	max-width: 140px;
+}
+
+
+
+
+.logo-image {
+	background-color:white;
+	padding:2px; 
+	border-radius:3px; 
+	height:90px;
+	width:260px;
+
+	/*-webkit-transition: all 1s;*/
+}
+.first-menu-item {
+	margin-left:0.5rem;
+
+	/*-webkit-transition: all 1s;*/
+}
+ul {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	list-style-type:none;
+	margin:0;
+	margin-top:1.5rem;
+	padding:0;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	/*margin-right: 1px;*/
+}
+
+li a {
+	display:block;
+	min-width:140px;
+	/*height: 50px;*/
+	height: 40px;
+	text-align: center;
+	/*line-height: 50px;*/
+	/*line-height: 40px;*/
+	line-height: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #a31330;
+	/*background: #2f3036;*/
+	/*background-color: rgba(0,0,0,0.8);*/
+	text-decoration: none;
+	-webkit-transition: all 1s;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+	/*background: rgb(0,0,0);*/
+	color:#d81940;
+	-webkit-transition: all 1s;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	/*background: rgba(0,0,0,0.8);*/
+	color: #a31330;
+	/*height: 40px;*/
+	/*line-height: 40px;*/
+}
+
+li ul a {
+	/*background: #f3f3f3;*/
+	background:rgba(0,0,0,0.8);
+	color: #a31330;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+/*li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}*/
+li ul {
+	display: none;
+	margin-top:0rem;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	/*padding: 0 20px;*/
+	padding: 0;
+}
+
+/*Display the dropdown on hover*/
+/*ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}*/
+
+.hyperspace-faqs {
+	font-size: 10px;
+}
+
+.hidden {
+	/*margin-top:22px;*/
+	/*margin-top:32px;*/
+	margin-top:16px;
+	display:block;
+}
+.hidden-nested {
+	display:block;
+}
+
+.show-menu {
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	text-decoration: none;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+/*input[type=checkbox]:checked ~ #menu{
+    display: block;
+}*/
+
+/*#menu {
+    display: inline-block;
+}*/
+
+/*navbar css*/
+
+/*social media box css*/
+
+
+
+
+
+
+
+
+
+
+.ng-hide-add, .ng-hide-remove {
+    /* ensure visibility during the transition */
+    display: block; /* yes, important */
+}
+.hidden {
+	transition: 0.25s linear all;
+    opacity: 1;
+}
+.hidden.ng-hide {
+    opacity: 0.35;
+}
+.hidden-nested {
+	transition: 0.55s linear all;
+    opacity: 1;
+}
+.hidden-nested.ng-hide {
+	opacity: 0.35;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*social media box css*/
+
+/*last supper css*/
+
+.last-supper {
+	background-image: url("./images/lastsupper.png");
+	background-size: 100% 100%;
+	width:100%;
+	height:30rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+.last-supper-content {
+	padding-top:22rem;
+	bottom: 4rem;
+	padding-bottom: 2rem;
+	vertical-align: bottom;
+	color:white;
+	font-size: 1.5rem;
+}
+.last-supper-h1 {
+	text-shadow:0.35px 0.35px black;
+}
+.last-supper-button {
+	margin-top: 0.7rem;
+	background-color:#a31330;
+	padding-top:1rem;
+	padding-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right:3rem;
+	color:white; 
+	border-radius: 2px;
+	text-transform: uppercase;
+	-webkit-transition: all 1s;
+}
+.last-supper-button:hover {
+	background-color: #d81940;
+	padding-left: 11.5rem;
+	padding-right:11.5rem;
+	-webkit-transition: all 1s;
+}
+
+/*last supper css*/
+
+/*cylons css*/
+
+.cylons {
+	padding-top: 2rem;
+	padding-bottom:2rem;
+	width:100%;
+	text-align: center;
+	background-color: white;
+}
+/*.cylons-col-1 {
+	width:40%; 
+	float: left;
+	padding-left:5%;
+	text-align: right;
+}
+.cylons-col-2 {
+	width:35%;
+	margin-left: 55%;
+	padding-right:5%;
+	text-align: inherit;
+}*/
+.cylons-col-1-2 {
+	/*width: 600px;*/
+	width:30%; 
+	padding-left:15%;
+/*	position:relative;*/
+	display: inline-block;
+	vertical-align: top;
+}
+.cylons-col-2-2 {
+	width:36%;
+	padding-right:15%;
+	padding-left:3%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.cylons p {
+	font-size: 13px;
+	color:gray;
+}
+.display-none {
+	display: none;
+}
+
+/*cylons css*/
+
+/*parallax scrolling css*/
+
+.parallax-image {
+	position:fixed;
+	background-image: url("./images/spaceship.png");
+	background-size: 100% 100%;
+	z-index: -10;
+	top:-8rem;
+	height:70rem;
+	width:100%;
+}
+
+/*parallax scrolling css*/
+
+/*footer css*/
+
+.footer {
+	padding-top: 2rem;
+	padding-bottom:2rem;
+	width:100%;
+	text-align: center;
+	background-color: white;
+	top:60rem;
+	position:absolute;
+}
+.footer-col-1-3 {
+	width:23%; 
+/*	height:12rem;*/
+	padding-left:15%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+/*	border-left: solid 0.5px gray;*/
+}
+.footer-col-1-3-inside {
+	border-left:1px solid gray; 
+	padding-left:19px;
+}
+.footer-col-1-3 h4 {
+	color:#a31330;
+	text-transform: uppercase;
+}
+.footer-col-2-3 {
+	width:21%;
+/*	height:12.5rem;*/
+	padding-right:2%;
+	padding-left:2%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+/*	border-left: solid 0.5px gray;*/
+}
+.footer-col-2-3 h4 {
+	color:#a31330;
+	text-transform: uppercase;
+}
+.footer-col-3-3 {
+	width:20.5%;
+/*	height:12rem;*/
+	padding-right:15%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.footer-col-3-3 h4 {
+	color:#a31330;
+	text-transform: uppercase;
+}
+.date-logo {
+	height:10px;
+	width:10px;
+}
+.event-p {
+	color:gray;
+	font-size:11px
+}
+.salute {
+	height:150px; 
+	width:200px;
+}
+
+/*footer css*/
+
+/*media queries*/
+
+@media screen and (max-width: 500px) {
+	.last-supper {
+		background-image: url("./images/lastsuppermobile.png");
+	}
+	.parallax-image {
+		background-image: url("./images/spaceshipmobile.png");
+	}
+}
+
+@media screen and (max-width : 765px){
+	/*Make dropdown links appear inline*/
+/*	ul {
+		position: static;
+		display: none;
+		margin-top:0;
+	}*/
+
+	
+
+	ul {
+		position: static;
+		display: block;
+		margin-top:0;
+	}
+
+
+
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+
+	li a {
+		background-color: rgba(0,0,0,0.8);
+	}
+	.navbar {
+		background-color: transparent;
+	}
+	.hidden {
+		margin-top:1px;
+	}
+	input[type=checkbox]:checked ~ #menu{
+	    display: block;
+	}
+	.show-menu {
+		display:block;
+		height:6rem;
+	}
+	.show-menu h1 {
+		padding-top: 2rem;
+		color:#a31330;
+	}
+/*	.logo {
+		display:none;
+	}*/
+	.logo-image {
+		background-color:white;
+		padding:2px; 
+		border-radius:3px; 
+		height:35px;
+		/*width:105px;*/
+		width:150px;
+
+		/*-webkit-transition: all 1s;*/
+	}
+	.non-logo {
+		max-width: 100%;
+	}
+	.first-menu-item {
+		margin-left:0rem;
+	}
+	.hyperspace-faqs {
+		font-size: 12px;
+	}
+	.last-supper-content {
+		font-size: 1rem;
+	}
+	.last-supper-button {
+		padding-left: 1rem;
+		padding-right:1rem;
+		margin-top: 0rem;
+	}
+	.last-supper-button:hover {
+		padding-left: 7rem;
+		padding-right:7rem;
+		/*-webkit-transition:1s;*/
+	}
+	.cylons-col-1-2 {
+		width:90%;
+		padding-left: 5%;
+		padding-right:5%;
+		display: block;
+	}
+	.cylons-col-2-2 {
+		width:90%;
+		padding-left: 5%;
+		padding-right:5%;
+		display: block;
+	}
+	.footer {
+		top:75rem;
+	}
+	.footer-col-1-3 {
+		width:50%;
+		padding-left: 24%;
+		padding-right:24%;
+		display: block;
+		border-left: 0px;
+		text-align: center;
+/*		border-bottom: 0.5px solid gray;*/
+	}
+	.footer-col-1-3-inside {
+		border-left:0px solid gray; 
+		border-bottom: 0.5px solid gray;
+	}
+	.footer-col-2-3 {
+		width:50%;
+		padding-left: 24%;
+		padding-right:24%;
+		display: block;
+		border-left: 0px;
+/*		border-bottom: 0.5px solid gray;*/
+		text-align: center;
+	}
+	.footer-col-3-3 {
+		width:50%;
+		padding-left: 24%;
+		padding-right:24%;
+		display: block;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width : 1200px){
+	.last-supper {
+		background-image: url("./images/lastsupperpanoramic.png");
+	}
+	.parallax-image {
+		background-image: url("./images/spaceshippanoramic.png");
+	}
+}
+}
+
+/*media queries*/
