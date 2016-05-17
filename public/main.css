@@ -66,6 +66,8 @@ li a {
 	-webkit-transition : all 1s;
 	-moz-transition    : 1s;
 	-ms-transition     : 1s;
+	padding-right      : 25px;
+	padding-left      : 25px;
 }
 li:hover a {
 	color              : #004040; /*hover state for menu options: turn brighter red*/
