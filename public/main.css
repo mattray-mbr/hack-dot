@@ -42,7 +42,7 @@
 .logo-image {
 	height             : 90px;
 	width              : 260px;
-	background-color   : white;
+	background-color   : teal;
 	padding            : 2px; 
 	border-radius      : 3px; 
 }
@@ -202,7 +202,7 @@ li ul li {
 
 .parallax-image {
 	position           : fixed;
-	background-image   : url("./images/spaceship.jpg");
+	background-image   : url("./images/parallaxOneSize.png");
 	background-size    : 100% 100%;
 	z-index            : -10;
 	top                : -128px;
@@ -377,10 +377,10 @@ li ul li {
 
 @media screen and (max-width: 500px) {
 	.last-supper { /*using more 'portraity' images for mobile displays*/
-		background-image : url("./images/lastsuppermobile.jpg");
+		background-image : url("./images/mobile.png");
 	}
 	.parallax-image {
-		background-image : url("./images/spaceshipmobile.jpg");
+		background-image : url("./images/parallaxOneSize.png");
 	}
 }
 
@@ -480,13 +480,13 @@ li ul li {
 
 @media screen and (min-width : 1200px){
 	.last-supper { /*using more panoramic images for wider displays*/
-		background-image : url("./images/lastsupperpanoramic.jpg");
+		background-image : url("./images/panoramic.png");
 	}
 	.parallax-image {
-		background-image : url("./images/spaceshippanoramic.jpg");
+		background-image : url("./images/parallaxOneSize.png");
 	}
 	.parallax-image2 {
-		background-image : url("./images/spaceshippanoramic.jpg");
+		background-image : url("./images/parallaxOneSize.png");
 	}
 }
 }
