@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/mattray-mbr/hack-dot/issues"
   },
-  "homepage": "https://github.com/mattray-mbr/hack-dot#readme"
+  "homepage": "https://github.com/mattray-mbr/hack-dot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.17",
+    "morgan": "^1.7.0"
+  }
 }
