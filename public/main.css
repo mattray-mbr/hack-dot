@@ -42,7 +42,7 @@
 .logo-image {
 	height             : 90px;
 	width              : 260px;
-	background-color   : teal;
+	background-color   : #4ca6a6;
 	padding            : 2px; 
 	border-radius      : 3px; 
 }
@@ -61,20 +61,20 @@ li a {
 	display            : block;
 	height             : 40px;
 	line-height        : 20px;
-	color              : #a31330; /*scarlet red*/
+	color              : #4ca6a6; /*scarlet red*/
 	text-decoration    : none;
 	-webkit-transition : all 1s;
 	-moz-transition    : 1s;
 	-ms-transition     : 1s;
 }
 li:hover a {
-	color              : #d81940; /*hover state for menu options: turn brighter red*/
+	color              : #004040; /*hover state for menu options: turn brighter red*/
 	-webkit-transition : all 1s;
 	-moz-transition    : 1s;
 	-ms-transition     : 1s;
 }
 li:hover ul a {
-	color              : #a31330; /*dropdown links remain scarlet red on hover*/
+	color              : #4ca6a6; /*dropdown links remain scarlet red on hover*/
 }
 li ul a {
 	background         : rgba(0,0,0,0.8); /*dropdown menus are transparent black*/
@@ -121,7 +121,7 @@ li ul li {
 /*last supper css*/
 
 .last-supper {
-	background-image   : url("./images/lastsupper.jpg");
+	/*background-image   : url("./images/lastsupper.jpg");*/
 	background-size    : 100% 100%;
 	width              : 100%;
 	height             : 480px;
@@ -141,7 +141,7 @@ li ul li {
 }
 .last-supper-button {
 	margin-top         : 11.2px;
-	background-color   : #a31330;
+	background-color   : #4ca6a6;
 	padding-top        : 16px;
 	padding-bottom     : 16px;
 	padding-left       : 48px;
@@ -154,7 +154,7 @@ li ul li {
 	-ms-transition     : 1s;
 }
 .last-supper-button:hover {
-	background-color   : #d81940;
+	background-color   : #004040;
 	padding-left       : 184px;
 	padding-right      : 184px;
 	-webkit-transition : all 1s;
@@ -238,7 +238,7 @@ li ul li {
 	padding-left       : 19px;
 }
 .footer-col-1-3 h4 {
-	color              : #a31330;
+	color              : #4ca6a6;
 	text-transform     : uppercase;
 }
 .footer-col-2-3 {
@@ -250,7 +250,7 @@ li ul li {
 	text-align         : left;
 }
 .footer-col-2-3 h4 {
-	color              : #a31330;
+	color              : #4ca6a6;
 	text-transform     : uppercase;
 }
 .footer-col-3-3 {
@@ -261,7 +261,7 @@ li ul li {
 	text-align         : left;
 }
 .footer-col-3-3 h4 {
-	color              : #a31330;
+	color              : #4ca6a6;
 	text-transform     : uppercase;
 }
 .date-logo {
@@ -301,7 +301,7 @@ li ul li {
     -webkit-border-radius :25px;
 }
 .facebookBtn{
-    background         : #a31330;
+    background         : #4ca6a6;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
@@ -311,14 +311,14 @@ li ul li {
     content            : "\f09a"; 
 }
 .facebookBtn:hover{
-    color              : #a31330;;
+    color              : #4ca6a6;;
     background         : #fff;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
 }
 .twitterBtn{
-    background         : #a31330;
+    background         : #4ca6a6;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
@@ -328,14 +328,14 @@ li ul li {
 	content            : "\f099"; 
 }
 .twitterBtn:hover{
-    color              : #a31330;
+    color              : #4ca6a6;
     background         : #fff;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
 }
 .linkedinBtn{
-    background         : #a31330;
+    background         : #4ca6a6;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
@@ -345,14 +345,14 @@ li ul li {
       content          : "\f0e1"; 
 }
 .linkedinBtn:hover{
-    color              : #a31330;
+    color              : #4ca6a6;
     background         : #fff;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
 }
 .pinterestBtn{
-    background         : #a31330;
+    background         : #4ca6a6;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
     -ms-transition     : 1s;
@@ -362,7 +362,7 @@ li ul li {
       content          : "\f0d2"; 
 }
 .pinterestBtn:hover{
-    color              : #a31330;
+    color              : #4ca6a6;
     background         : #fff;
     -webkit-transition : all 1s;
     -moz-transition    : 1s;
@@ -377,10 +377,10 @@ li ul li {
 
 @media screen and (max-width: 500px) {
 	.last-supper { /*using more 'portraity' images for mobile displays*/
-		background-image : url("./images/mobile.png");
+		/*background-image : url("./images/mobile.png");*/
 	}
 	.parallax-image {
-		background-image : url("./images/parallaxOneSize.png");
+		/*background-image : url("./images/parallaxOneSize.png");*/
 	}
 }
 
@@ -480,7 +480,7 @@ li ul li {
 
 @media screen and (min-width : 1200px){
 	.last-supper { /*using more panoramic images for wider displays*/
-		background-image : url("./images/panoramic.png");
+		/*background-image : url("./images/panoramic.png");*/
 	}
 	.parallax-image {
 		background-image : url("./images/parallaxOneSize.png");
